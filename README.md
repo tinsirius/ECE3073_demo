@@ -2,21 +2,11 @@ The following demonstration is shared purely to pique your curiosity—please do
 
 Here's the demo. You can reach around 165 FPS in quad mode
 
-<p align="center">
-    <video autoplay loop width="640">
-    <source src="videos/quad_greyscale.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
-</p>
+https://github.com/user-attachments/assets/c2583e85-695a-4607-b532-494196477023
 
 This means that reading from SPI, processing, and updating the pixel buffer all complete in roughly 6 ms per frame. The "cam FPS" refers to the native refresh rate of the ESP32-CAM—i.e., the interval between `cam_ready` PIN assertions. You can also reach 13.8 FPS with full RGB image + processing.
 
-<p align="center">
-    <video autoplay loop width="640">
-    <source src="videos/full_RGB.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
-</p>
+https://github.com/user-attachments/assets/24bfddff-e3f5-46e3-9a29-ce09e67aa60d
 
 **PLEASE NOTE**: While attempting this level of performance won't do much for your grade, pulling it off will definitely earn you a few
 
